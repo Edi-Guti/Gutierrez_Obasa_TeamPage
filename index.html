@@ -8,10 +8,10 @@
 	<title>Team Page</title>
 </head>
 <body>		
-	<main>		<!-- initial navbar -->
-		<h1>Team Page</h1>
-		<nav id="mainNav">
-			<ul id="navbar">
+	<main id="main-section">		<!-- initial navbar -->
+		<h1>TEAM PAGE</h1>
+		<nav class="mainNav">
+			<ul class="navbar">
 				<li>
 					<a href="#">ABOUT US</a>
 					<a href="#">PORTFOLIO</a>
@@ -20,20 +20,25 @@
 			</ul>
 		</nav>
 	
-		<section id="team-members">					<!-- team members -->
+		<section>					<!-- team member one -->
 			<div class="team1">	
 				<h2>LEADERS</h2>
 				<h3>Ife Obasa</h3>
 				<img src="images/ife.png" alt="Ife Obasa">
-				<img src="images/ife2.png" alt="Ife Obasa">
+				<!--<img src="images/ife2.png" alt="Ife Obasa">-->
 				<p>
-						
+				Ife is a hard working web<br>
+ 				developer with an<br>
+				exceptional portfolio.<br>
+				Very organized and<br>
+				knows her stuff.  Any<br>
+				questions? Ask her.	
 				</p>
 			</div>
 		</section>
 
-		<section id="team-members">					<!-- team members -->
-			<div class="team1">	
+		<section>					<!-- team member two -->
+			<div class="team2">	
 				<h3>Edi Gutierrez</h3>
 				<img src="images/edi.png" alt="Edi Gutierrez">
 				<p>
@@ -47,10 +52,10 @@
 		</section>
 	</main>
 
-	<!-- footer also have navbar -->
+	<!-- footer also has navbar -->
 	<footer>
-		<nav id="mainNav">
-			<ul id="navbar">
+		<nav id="footer">
+			<ul id="footer-nav">
 				<li>
 					<a href="#">ABOUT US</a>
 					<a href="#">PORTFOLIO</a>
@@ -58,10 +63,14 @@
 				</li>
 			</ul>
 		</nav>
-
-
-			
-	</footer>
+		
+		<section id="social-media">
+			<h5 class="hidden">Social Media</h5>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-facebook-square"></i>
+			<i class="fab fa-twitter"></i>
+		</section>
+	</footer>			<!-- end footer -->
 	<script src="js/main.js"></script>	
 </body>
 </html>
