@@ -22,7 +22,7 @@ Edi Gutierrez
 [@EdiGutierrez](https://www.fanshaweonline.ca/d2l/lp/profile/profile_edit.d2l?ou=947336)
 
 Ife Obasa
-[@IfeObasa]()
+[@IfeObasa](www.github.com)
 
 ## Version History
 
