@@ -7,64 +7,86 @@
 	<link rel="stylesheet" href="css/main.css">
 	<title>Team Page</title>
 </head>
-<body>		
-	<main id="main-section">		<!-- initial navbar -->
-		<h1>TEAM PAGE</h1>
-		<nav class="mainNav">
-			<ul class="navbar">
-				<li><a href="#">ABOUT US</a></li>
-				<li><a href="#">PORTFOLIO</a></li>
-				<li><a href="#">CONTACT US</a></li>
-			</ul>
-		</nav>
+<body>	
+
+	<main id="main-section">
+		
+		<header>
+			<h1>TEAM PAGE</h1>	
+
+			<nav class="mainNav">
+				<ul class="navbar">
+					<li><a href="#">ABOUT US</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">CONTACT US</a></li>
+				</ul>
+			</nav>
+		</header>		<!-- header+nav-->
+
+		
 	
-		<section>
-			<h2>LEADERS</h2>					<!-- team member one -->
-			<div class="team1">	
-				<div class="left">
-					<img src="images/ife.png" alt="Ife Obasa">
+		<section class="content">
+			<h2>LEADERS</h2>
+								<!-- team member one -->
+			<section class="team">	
+				<div id="profilePhoto">
+					<img class="bottom" src="images/ife2.png" alt="Ife Obasa">
+					<img class="top" src="images/ife.png" alt="Ife Obasa">
 				</div>
 				<!--<img src="images/ife2.png" alt="Ife Obasa">-->
-				<div class="right">
+				<div class="Text">
 					<h3>Ife Obasa</h3>
 					<p>Ife is a hard working web developer with an exceptional portfolio. Very organized and knows her stuff.  Any questions? Ask her.</p>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<section>					<!-- team member two -->
-			<div class="team2">
-				<div class="right">
-					<img src="images/edi.png" alt="Ife Obasa">
-				</div>
-				<div class="left">
+			<section class="team">					<!-- team member two -->
+				<div class="Text">
 					<h3>Edi Gutierrez</h3>
 					<p>Edi’s life philosophy is: “Persistence is the key to SUCCESS.” He is a strong believer that finding your success in life is worth taking the risk and accomplishing your goals.
 					</p>
 				</div>
+				<div id="profilePhoto">
+					<img class="bottom" src="images/edi.png" alt="Edi">
+				</div>
+
 				<!--<img src="images/ife2.png" alt="Ife Obasa">-->
-				
-			</div>
+			</section>
 		</section>
 	</main>
 
 	<!-- footer also has navbar -->
 	<footer>
-		<nav id="footer">
-			<ul id="footer-nav">
+
+		<nav>
+		<h2 class="hidden">Footer Navigation</h2>
+
+			<ul>
 				<li><a href="#">ABOUT US</a></li>
 				<li><a href="#">PORTFOLIO</a></li>
 				<li><a href="#">CONTACT US</a></li>
 			</ul>
 		</nav>
 		
-		<section id="social-media">
-			<h5 class="hidden">Social Media</h5>
-			<img src="images/instagram.png" alt="Instagram">
-			<img src="images/facebook.png" alt="Facebook">
-			<img src="images/twitter.png" alt="Twitter">
-			<p>©Team Page 2019 All Rights Reserved</p>
-		</section>
+			<div class="social">
+		<h2 class="hidden">Social Media</h2>
+					<a href="http://www.facebook.com">
+                			<img src="images/facebook.png" alt="socialIMG">
+					</a>
+
+					<a href="http://www.instagram.com">
+                			<img src="images/instagram.png" alt="socialIMG">
+              		</a>
+
+
+					<a href="http://www.twitter.com">
+                			<img src="images/twitter.png" alt="socialIMG">
+             		</a>
+
+	</div>
+		<p>©Team Page 2019 All Rights Reserved</p>
+
+
 	</footer>			<!-- end footer -->
 	<script src="js/main.js"></script>	
 </body>
